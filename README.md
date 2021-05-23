@@ -5,23 +5,18 @@ logs people at their entry and can provide that details when necessary.
 <h2>Concepts:</h2>
 
 * <h3>Inheritance</h3>
-  Inheritance makes it possible to create a child class that inherits the fields and methods of the parent class. 
-  Inheritance in Java can be achieved using classes or interfaces.
-  The child class can override the values and methods of the parent class, however it’s not necessary. It can also 
-  add new data and functionality to its parent. Parent classes are also called superclasses or base classes, while 
-  child classes are known as subclasses or derived classes as well. Java uses the 'extends'(for classes) and 
-  'implements'(for interface) keyword to 
-  implement the principle of inheritance in code. <br/>
-  In this case, we have [Person](src/main/java/shoppingMall/people/Person.java) and [Store](src/main/java/shoppingMall/shops/Store.java) as base classes and other classes implement these.
-    * [Person](src/main/java/shoppingMall/people/Person.java)
-        * [Customer](src/main/java/shoppingMall/people/Customer.java)
-        * [Employee](src/main/java/shoppingMall/people/Employee.java)
-            * [CleaningStaff](src/main/java/shoppingMall/people/CleaningStaff.java)
-            * [SalesPerson](src/main/java/shoppingMall/people/SalesPerson.java)
-    * [Store](src/main/java/shoppingMall/shops/Store.java)
-        * [Clothing](src/main/java/shoppingMall/shops/ClothingStore.java)
-        * [Grocery](src/main/java/shoppingMall/shops/Grocery.java)
-        * [TakeAways](src/main/java/shoppingMall/shops/TakeAways.java)
+  Inheritance makes it possible to create a child class that inherits the fields and methods of the parent class. Inheritance in Java can be achieved using classes or interfaces. The child class can override the values and methods of the parent class, however it’s not necessary. It can also add new data and functionality to its parent. Parent classes are also called superclasses or base classes, while child classes are known as subclasses or derived classes as well. Java uses the 'extends'(for classes) and 'implements'(for interface) keyword to implement the principle of inheritance in code. <br/>
+  In this case, we have [Person](src/main/java/shoppingMall/people/Person.java) and 
+  [Store](src/main/java/shoppingMall/shops/Store.java) as base classes and other classes implement these.
+  * [Person](src/main/java/shoppingMall/people/Person.java)
+    * [Customer](src/main/java/shoppingMall/people/Customer.java)
+    * [Employee](src/main/java/shoppingMall/people/Employee.java)
+      * [CleaningStaff](src/main/java/shoppingMall/people/CleaningStaff.java)
+      * [SalesPerson](src/main/java/shoppingMall/people/SalesPerson.java)
+  * [Store](src/main/java/shoppingMall/shops/Store.java)
+    * [Clothing](src/main/java/shoppingMall/shops/ClothingStore.java)
+    * [Grocery](src/main/java/shoppingMall/shops/Grocery.java)
+    * [TakeAways](src/main/java/shoppingMall/shops/TakeAways.java)
 
 * <h3>Abstraction</h3>
   Abstraction hides the underlying complexity of data. It avoids repetitive code and gives flexibility to 
@@ -64,6 +59,6 @@ Apart from these four concepts there is **Association**, **Aggregation** and oth
 covered 
 here.
 
-Reference : https://raygun.com/blog/oop-concepts-java/#encapsulation)
+Reference : https://raygun.com/blog/oop-concepts-java/#encapsulation
     
       
